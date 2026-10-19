@@ -1,0 +1,19 @@
+/* Experiment 4: Introduction to YACC tool - Lexer */
+
+%{
+#include "y.tab.h"
+#include <stdlib.h>
+%}
+
+%%
+
+[0-9]+          { yylval = atoi(yytext); return NUMBER; }
+[ \t]           { /* Skip whitespace */ }
+\n              { return '\n'; }
+.               { return yytext[0]; }
+
+%%
+
+int yywrap() {
+    return 1;
+}

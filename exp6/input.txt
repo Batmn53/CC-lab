@@ -1,0 +1,2 @@
+Decimal values: 10, 15, 16, 255, 1024, 4096.
+The port is 8080 and the code is 500.
