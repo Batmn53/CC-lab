@@ -1,0 +1,6 @@
+visit our website at google.com
+this line does not match
+serial communication on COM
+welcome to compiler lab
+file named command.COM
+another normal line
